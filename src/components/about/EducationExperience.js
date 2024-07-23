@@ -1,41 +1,47 @@
 const experiencesData = [
   {
     id: 1,
-    date: "2018 - Now",
-    designation: "Exclusive Author",
-    company: "Envato Market",
+    date: "2022 - Now",
+    designation: "MERN Stack Developer",
+    company: "Bool Mind",
   },
   {
     id: 2,
-    date: "2016 - 2018",
-    designation: "UX Designer",
-    company: "RGB Studio",
+    date: "2021 - 2022",
+    designation: "MERN Stack Developer",
+    company: "Logic Everest",
   },
   {
     id: 3,
-    date: "2012 - 2016",
+    date: "2020 - 2021",
+    designation: "MERN Stack Developer",
+    company: "Content Arcade",
+  },
+  {
+    id: 4,
+    date: "2018 - 2020",
     designation: "Web Designer",
-    company: "Innovations Park",
+    company: " Maxenius Solutions",
   },
 ];
 const educationData = [
   {
     id: 1,
-    date: "2014 - 2016",
-    degree: "Master Degree",
-    institute: "Oxford Univercity",
+    date: "2013- 2018",
+    degree: "Bachelor Degree",
+    institute: "National Textile University",
   },
   {
     id: 2,
-    date: "2010 - 2014",
-    degree: "Bachelor Degree",
-    institute: "Texas Univercity",
+    date: "2011 - 2012",
+    degree: "Intermediate Degree",
+    institute: "Ranger Public College",
   },
   {
     id: 3,
     date: "2008 - 2010",
-    degree: "Associate Degree",
-    institute: "Simone College",
+    degree: "Matriculation Degree",
+    institute: "FFMS",
   },
 ];
 

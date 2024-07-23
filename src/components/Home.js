@@ -18,7 +18,7 @@ const socialIcon = [
   {
     id: 4,
     iconName: "icon-linkedin-squared",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/nazakat-ali-761ba9159/",
   },
 ];
 const Home = () => {
@@ -40,11 +40,10 @@ const Home = () => {
             </div>
             <div className="details ml-[80px]">
               <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">
-                Nazakat
+              Hi, I'm Nazakat <span className="animate__wave">👋</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a Software Developer at heart and create features that are
-                best suited for the job at hand.
+              A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">

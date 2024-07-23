@@ -11,7 +11,7 @@ const About = () => {
     <SectionContainer name={"about"}>
       <div className="container">
         <div className="tokyo_tm_about w-full h-auto clear-both float-left py-[100px] px-0">
-          <div className="tokyo_tm_title w-full h-auto clear-both float-left">
+          <div className="tokyo_tm_title w-full h-auto clear-both float-left ">
             <div className="title_flex w-full h-auto clear-both flex justify-between items-end">
               <SectionTitle pageName={"About Me"} />
             </div>

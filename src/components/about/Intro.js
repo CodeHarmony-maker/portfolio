@@ -3,13 +3,14 @@ const Intro = () => {
   return (
     <Fragment>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-        <h3 className="text-[22px] font-bold">Nazakat</h3>
-        <span>Software Developer</span>
+        <h3 className="text-[22px] font-bold pt-[10px]">What I do</h3>
+        <span>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
-        <p className="mb-[11px]">
-        Hey there! So, picture this: I'm a tech-savvy, results-driven software developer extraordinaire. I've got over 5+ years of experience in the field, and let me tell you, I've built some seriously sophisticated applications. So, if you're looking for a developer who knows their stuff and can make you laugh along the way, look no further.
-        </p>
+        <p className="mb-[11px]">Hey there! So, picture this: I'm a tech-savvy, results-driven software developer extraordinaire. I've got over 5+ years of experience in the field, and let me tell you, I've built some seriously sophisticated applications. So, if you're looking for a developer who knows their stuff and can make you laugh along the way, look no further.</p>
+        <p className="mb-[11px]">⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications</p>
+        <p className="mb-[11px]">⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</p>
+        <p className="mb-[11px]">⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean</p>
       </div>
       <div className="tokyo_tm_short_info w-full h-auto clear-both float-left flex border-solid border-[#DFDFDF] border-b pb-[30px] mb-[40px]">
         <div className="left w-1/2 pr-[50px]">
@@ -45,11 +46,11 @@ const Intro = () => {
         </div>
       </div>
       <div className="tokyo_tm_button" data-position="left">
-        <a href="assets/img/cv/1.jpg" download>
+        <a href="assets/img/cv/1.png" download>
           <span>Download CV</span>
         </a>
       </div>
-    </Fragment>
+    </Fragment >
   );
 };
 export default Intro;

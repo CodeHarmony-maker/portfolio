@@ -1,12 +1,12 @@
 const programming = [
-  { id: 1, name: "WordPress", value: 95 },
-  { id: 2, name: "JavaScript", value: 80 },
-  { id: 3, name: "Angular", value: 90 },
+  { id: 1, name: "Frontend", value: 90 },
+  { id: 2, name: "Backend", value: 75},
+  { id: 3, name: "Programming", value: 60 },
 ];
 const language = [
-  { id: 1, name: "English", value: 90 },
-  { id: 2, name: "Russian", value: 95 },
-  { id: 3, name: "Arabic", value: 85 },
+  { id: 1, name: "JavaScript", value: 95 },
+  { id: 2, name: "React / Node", value: 85},
+  { id: 3, name: "Database", value: 70 },
 ];
 const Skills = () => {
   return (
@@ -15,7 +15,7 @@ const Skills = () => {
         <div className="in w-full h-auto clear-both float-left flex">
           <div className="left w-1/2 pr-[50px]">
             <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
-              <h3 className="text-[20px] font-bold">Programming Skills</h3>
+              <h3 className="text-[20px] font-bold">Proficiency</h3>
             </div>
             <div className="tokyo_progress">
               {programming.map((skill) => (
@@ -38,7 +38,7 @@ const Skills = () => {
           </div>
           <div className="right w-1/2 pl-[50px]">
             <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
-              <h3 className="text-[20px] font-bold">Language Skills</h3>
+              <h3 className="text-[20px] font-bold">Technologies</h3>
             </div>
             <div className="tokyo_progress">
               {language.map((skill) => (
