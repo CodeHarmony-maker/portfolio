@@ -3,26 +3,77 @@ import { sliderProps } from "../../sliderProps";
 const testimonialData = [
   {
     id: 1,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    text: "Expertise and dedication to web development exceeded my expectations. Outstanding service and exceptional results!",
     authorImage: "assets/img/testimonials/1.jpg",
-    authorName: "Alexander Walker",
-    authorDesignation: "Graphic Designer",
+    authorName: "Sophia Johnson",
+    authorDesignation: "Web Developer",
   },
   {
     id: 2,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    text: "Professionalism and commitment as a marketing specialist were thoroughly impressive. Highly recommended!",
     authorImage: "assets/img/testimonials/2.jpg",
-    authorName: "Isabelle Smith",
-    authorDesignation: "Content Manager",
+    authorName: "Liam Brown",
+    authorDesignation: "Marketing Specialist",
   },
   {
     id: 3,
-    text: "These people really know what they are doing! Great customer support availability and supperb kindness.",
+    text: "Delivered high-quality work and provided invaluable support and guidance for my projects.",
     authorImage: "assets/img/testimonials/3.jpg",
-    authorName: "Baraka Clinton",
-    authorDesignation: "English Teacher",
+    authorName: "Olivia Martinez",
+    authorDesignation: "Project Manager",
+  },
+  {
+    id: 4,
+    text: "Creative solutions and attention to detail in graphic design transformed our brand identity.",
+    authorImage: "assets/img/testimonials/4.jpg",
+    authorName: "Mason White",
+    authorDesignation: "Graphic Designer",
+  },
+  {
+    id: 5,
+    text: "Strategic approach and marketing insights significantly boosted our online presence and engagement.",
+    authorImage: "assets/img/testimonials/5.jpg",
+    authorName: "Emma Wilson",
+    authorDesignation: "Digital Marketer",
+  },
+  {
+    id: 6,
+    text: "Ability to manage complex projects with ease and efficiency was a game-changer for our team.",
+    authorImage: "assets/img/testimonials/6.jpg",
+    authorName: "Ava Davis",
+    authorDesignation: "Operations Manager",
+  },
+  {
+    id: 7,
+    text: "Technical skills and innovative thinking in software development were instrumental in our product launch.",
+    authorImage: "assets/img/testimonials/7.jpg",
+    authorName: "Ethan Brown",
+    authorDesignation: "Software Developer",
+  },
+  {
+    id: 8,
+    text: "User-centered design approach and creative flair brought our app to life with an exceptional user experience.",
+    authorImage: "assets/img/testimonials/8.jpg",
+    authorName: "Isabella Moore",
+    authorDesignation: "UI/UX Designer",
+  },
+  {
+    id: 9,
+    text: "Financial expertise and analytical skills helped us navigate complex financial challenges effortlessly.",
+    authorImage: "assets/img/testimonials/9.jpg",
+    authorName: "Sophia Taylor",
+    authorDesignation: "Financial Analyst",
+  },
+  {
+    id: 10,
+    text: "In-depth knowledge and strategic thinking in business consulting propelled our growth trajectory.",
+    authorImage: "assets/img/testimonials/10.jpg",
+    authorName: "Jackson Anderson",
+    authorDesignation: "Business Consultant",
   },
 ];
+
+
 const Testimonials = () => {
   return (
     <div className="tokyo_tm_testimonials w-full h-auto clear-both float-left py-[100px] px-0">
